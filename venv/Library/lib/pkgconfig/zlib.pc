@@ -1,0 +1,13 @@
+prefix=H:/Machine Learning Projects/flask-test/venv/Library
+exec_prefix=H:/Machine Learning Projects/flask-test/venv/Library
+libdir=H:/Machine Learning Projects/flask-test/venv/Library/lib
+sharedlibdir=H:/Machine Learning Projects/flask-test/venv/Library/lib
+includedir=H:/Machine Learning Projects/flask-test/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
